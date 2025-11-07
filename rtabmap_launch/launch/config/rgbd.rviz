@@ -72,7 +72,7 @@ Visualization Manager:
       Download graph: false
       Download map: false
       Download namespace: rtabmap
-      Enabled: true
+      Enabled: false
       Filter ceiling (m): 0
       Filter floor (m): 0
       Invert Rainbow: false
@@ -96,7 +96,7 @@ Visualization Manager:
         Value: /rtabmap/mapData
       Use Fixed Frame: true
       Use rainbow: true
-      Value: true
+      Value: false
     - Alpha: 1
       Class: rtabmap_rviz_plugins/MapGraph
       Enabled: true
@@ -129,6 +129,8 @@ Visualization Manager:
           Value: true
         zed_camera_link:
           Value: true
+        zed_imu_link:
+          Value: true
         zed_left_camera_frame:
           Value: true
         zed_left_camera_optical_frame:
@@ -148,6 +150,8 @@ Visualization Manager:
             zed_camera_link:
               zed_camera_center:
                 zed_left_camera_frame:
+                  zed_imu_link:
+                    {}
                   zed_left_camera_optical_frame:
                     {}
                 zed_right_camera_frame:
@@ -305,10 +309,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.14039947092533112
+      Pitch: 0.2853994071483612
       Target Frame: map
       Value: Orbit (rviz_default_plugins)
-      Yaw: 3.175398111343384
+      Yaw: 3.515401840209961
     Saved: ~
 Window Geometry:
   Displays:
